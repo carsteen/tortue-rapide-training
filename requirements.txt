@@ -1,0 +1,11 @@
+albumentations==0.2.3
+donkeycar==2.5.1
+imageio==2.4.1
+matplotlib==3.0.2
+numpy==1.15.4
+opencv-python==4.0.0.21
+pandas==0.23.4
+Pillow==5.4.1
+scikit-image==0.14.1
+tensorboard==1.8.0
+tensorflow==1.8.0

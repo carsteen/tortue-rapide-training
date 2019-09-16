@@ -1,0 +1,7 @@
+These functions provide support for training self driving car models, relying on Keras for training and DonkeyCar for car management / data acquisition.
+
+The main goal of these functions is to provide trained models as hdf5 files for car driving. Training is done on google colaboratory.
+
+Functions include image generator to fit models with on the fly augmentations, 3D image generator to fit 3D convolutions, model explanation using Lime and Keras, and data management.
+
+raphael.carmona-hagelsteen@ysance.com
