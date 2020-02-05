@@ -1,0 +1,3 @@
+# directory for folder containing images in the right format
+# eg /home/sample_data/race1_20190513
+data_folder:
