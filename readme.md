@@ -1,4 +1,4 @@
-### Torut Rapide Training
+### Torte Rapide Training
 
 This repo provide tools, model, sample data for training self driving cars for Ironcar a model racing cars challenge.
 
