@@ -24,7 +24,7 @@ min_delta = .0005
 patience = 8
 use_early_stop=True
 batch_size=64
-save_model_path = os.path.join(os.path.dirname(__file__), '../trained_models', 'convnet_' + datetime.now().strftime("%Y%m%d%H%M%S"))
+save_model_path = os.path.join(os.path.dirname(__file__), '../trained_models', 'convnet_' + datetime.now().strftime("%Y%m%d%H%M%S") + '.hdf5')
 
 model = default_categorical()
 
