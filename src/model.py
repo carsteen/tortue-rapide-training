@@ -7,12 +7,12 @@ def default_categorical():
     'default_categorical model from donkey car'
     img_in = Input(shape=(120, 160, 3), name='img_in')
     x = img_in
-    x = Cropping2D(cropping=((40, 10), (0, 0)))(x) # crop 40 pixels off top and 10 off bottom
+    x = Cropping2D(cropping=((30, 10), (0, 0)))(x) # crop 40 pixels off top and 10 off bottom
     x = Convolution2D(24, (5, 5), strides=(2, 2), activation='relu')(x)
     x = Convolution2D(32, (5, 5), strides=(2, 2), activation='relu')(x)
     x = Convolution2D(64, (5, 5), strides=(2, 2), activation='relu')(x)
-    x = Convolution2D(64, (3, 3), strides=(2, 2), activation='relu')(x)
     x = Convolution2D(64, (3, 3), strides=(1, 1), activation='relu')(x)
+    # x = Convolution2D(64, (3, 3), strides=(1, 1), activation='relu')(x)
     x = Flatten(name='flattened')(x)
     x = Dense(100, activation='relu')(x)
     x = Dropout(.1)(x)
