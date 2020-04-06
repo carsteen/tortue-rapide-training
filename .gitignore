@@ -2,3 +2,4 @@ __pycache__/
 .idea/
 
 conf/conf.yaml.local
+trained_models/*.hdf5
