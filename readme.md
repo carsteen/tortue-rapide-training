@@ -9,6 +9,3 @@ The main goal of these functions is to provide trained models as hdf5 files for 
 Utils include batch generators to fit models with on the fly data augmentations both on memory or on disk using albumentation, 3D image generators to feed 3D convolutions, model explanation using Lime and Keras, and data management utils.
 
 Winning solution for several races in 2019 !
-
-raphael.carmona-hagelsteen@ysance.com
-
